@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Emerson_ShoppingCart</name>
+    </assembly>
+    <members>
+        <member name="T:Emerson_ShoppingCart.Controllers.Interfaces.IShoppingCartController">
+            <summary>
+            Interface IShoppingCartController
+            </summary>
+        </member>
+        <member name="M:Emerson_ShoppingCart.Controllers.Interfaces.IShoppingCartController.AddItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <summary>
+            Adds the items.
+            </summary>
+            <param name="grm">The GRM.</param>
+            <returns>IHttpActionResult.</returns>
+        </member>
+        <member name="T:Emerson_ShoppingCart.Database.Data.Seed">
+            <summary>
+            Utility class used to seed the DB with initial data in the event of initial startup or a missing DB File.
+            This is strictly for testing purposes
+            </summary>
+        </member>
+        <member name="F:Emerson_ShoppingCart.Database.Data.Seed.ItemSeed">
+            <summary>
+            A List of Item Model Objects used to seed the DB with test data
+            </summary>
+        </member>
+        <member name="F:Emerson_ShoppingCart.Database.Data.Seed.UserSeed">
+            <summary>
+            A list of User Model Objects used to seed the DB with test data
+            </summary>
+        </member>
+        <member name="F:Emerson_ShoppingCart.Database.Data.Seed.LinkTableSeed">
+            <summary>
+            A list of Shopping Cart Link Table Objects used to seed the DB with test data
+            </summary>
+        </member>
+        <member name="T:Emerson_ShoppingCart.WebApiApplication">
+            <summary>
+            Class WebApiApplication.
+            </summary>
+            <seealso cref="T:System.Web.HttpApplication" />
+        </member>
+        <member name="M:Emerson_ShoppingCart.WebApiApplication.Application_Start">
+            <summary>
+            ASP.Net Native Code
+            </summary>
+        </member>
+        <member name="T:Emerson_ShoppingCart.Services.Interfaces.IShoppingCartService">
+            <summary>
+            Interface IShoppingCartService
+            </summary>
+            /// <seealso cref="T:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader" />
+        </member>
+        <member name="M:Emerson_ShoppingCart.Services.Interfaces.IShoppingCartService.AddItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <summary>
+            Adds the selected items to the selected User's shopping cart
+            </summary>
+            <param name="grm">The GRM.</param>
+            <returns><c>true</c> if Successful business transformations are performed, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:Emerson_ShoppingCart.Services.ShoppingCartService">
+            <summary>
+            Service class for the ShoppingCart Controller.
+            Handles Business Logic that may manipulate data before interaction with DB.
+            </summary>
+            <seealso cref="T:Emerson_ShoppingCart.Services.Interfaces.IShoppingCartService" />
+        </member>
+        <member name="M:Emerson_ShoppingCart.Services.ShoppingCartService.#ctor(Emerson_ShoppingCart.ViewReaders.Interfaces.IShoppingCartViewReader)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Emerson_ShoppingCart.Services.ShoppingCartService"/> class.
+            </summary>
+            <param name="vreader">The vreader.</param>
+        </member>
+        <member name="M:Emerson_ShoppingCart.Services.ShoppingCartService.AddItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.Helpers.ExternCall.GetTaxRate(System.String)">
+            <summary>
+            Gets the tax rate.
+            </summary>
+            <param name="region">The region.</param>
+            <returns>Random tax rate between 0-100% until I find an API that doesn't piss me off.</returns>
+        </member>
+        <member name="T:Emerson_ShoppingCart.ViewReaders.Interfaces.IShoppingCartViewReader">
+            <summary>
+            Interface IShoppingCartViewReader
+            </summary>
+            /// <seealso cref="T:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader" />
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.Interfaces.IShoppingCartViewReader.AddItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <summary>
+            Adds the given data to the ShoppingCart_LinkTable Table.
+            </summary>
+            <param name="grm">GenericRequestModel containing a User and a List of Items.</param>
+            <returns><c>true</c> if successful DB Operation, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.Interfaces.IShoppingCartViewReader.RemoveItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <summary>
+            Removes the given data from the ShoppingCart_LinkTable Table.
+            </summary>
+            <param name="grm">GenericRequestModel containing a User and a List of Items.</param>
+            <returns><c>true</c> if successful DB Operation, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader">
+            <summary>
+            ViewReader Class for the ShoppingCart Controller.
+            Handles mediation and communication with SQLite data storage
+            </summary>
+            <seealso cref="T:Emerson_ShoppingCart.ViewReaders.Interfaces.IShoppingCartViewReader" />
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader"/> class.
+            </summary>
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader.AddItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader.RemoveItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader.ListItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader.ClearCart(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inhericdoc />
+        </member>
+    </members>
+</doc>

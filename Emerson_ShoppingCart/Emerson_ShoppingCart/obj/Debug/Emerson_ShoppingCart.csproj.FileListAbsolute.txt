@@ -1,0 +1,66 @@
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\csc.exe
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\System.Collections.Immutable.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\vbc.exe
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\VBCSCompiler.exe
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\roslyn\VBCSCompiler.exe.config
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Emerson_ShoppingCart.dll.config
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Emerson_ShoppingCart.XML
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Emerson_ShoppingCart.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Emerson_ShoppingCart.pdb
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Microsoft.Web.Infrastructure.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Newtonsoft.Json.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Swashbuckle.Core.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Net.Http.Formatting.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Web.Http.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Web.Http.WebHost.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\WebActivatorEx.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Newtonsoft.Json.xml
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Net.Http.Formatting.xml
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Web.Http.xml
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Web.Http.WebHost.xml
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\obj\Debug\Emerson_ShoppingCart.csprojResolveAssemblyReference.cache
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\obj\Debug\Emerson_ShoppingCart.dll
+c:\users\casval zem daikun\documents\visual studio 2015\Projects\Emerson_ShoppingCart\Emerson_ShoppingCart\obj\Debug\Emerson_ShoppingCart.pdb
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Emerson_ShoppingCart.dll.config
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Emerson_ShoppingCart.XML
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Emerson_ShoppingCart.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Emerson_ShoppingCart.pdb
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Autofac.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Autofac.Integration.WebApi.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Microsoft.Web.Infrastructure.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Newtonsoft.Json.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Swashbuckle.Core.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Net.Http.Formatting.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Web.Http.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Web.Http.WebHost.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\WebActivatorEx.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Autofac.xml
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Autofac.Integration.WebApi.xml
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\Newtonsoft.Json.xml
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Net.Http.Formatting.xml
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Web.Http.xml
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Web.Http.WebHost.xml
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\obj\Debug\Emerson_ShoppingCart.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\obj\Debug\Emerson_ShoppingCart.pdb
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\EntityFramework.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\EntityFramework.SqlServer.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Data.SQLite.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Data.SQLite.EF6.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Data.SQLite.Linq.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\EntityFramework.xml
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\EntityFramework.SqlServer.xml
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\System.Data.SQLite.xml
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\x86\sqlite3.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\bin\x64\sqlite3.dll
+C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart\obj\Debug\Emerson_ShoppingCart.csprojResolveAssemblyReference.cache
