@@ -11,9 +11,24 @@ using Emerson_ShoppingCart.ViewReaders.Interfaces;
 
 namespace Emerson_ShoppingCart
 {
+    /// <summary>
+    /// Class used to encapsulate AutoFac DI Functionality.
+    /// Called on application start.
+    /// </summary>
     public static class Bootstrapper
     {
+        #region Public Static Members
+        /// <summary>
+        /// Publicly accessible container to resolve types.
+        /// This was primarily used because of unit testing.
+        /// </summary>
         public static IContainer _container;
+        #endregion
+
+        #region Public Static Methods
+        /// <summary>
+        /// Handles AutoFac DI and Type Registration
+        /// </summary>
         public static void Run()
         {
             var builder = new ContainerBuilder();
@@ -36,5 +51,6 @@ namespace Emerson_ShoppingCart
             //Register the container as a publicly accessible variable
             _container = container;
         }
+        #endregion
     }
 }

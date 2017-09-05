@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Emerson_ShoppingCart.Models;
 using Emerson_ShoppingCart.Models.RequestModels;
 using Emerson_ShoppingCart.Services.Interfaces;
@@ -31,38 +30,36 @@ namespace Emerson_ShoppingCart.Services
 
         #region Interface Members
         /// <inheritdoc />
-        public bool AddItems(GenericRequestModel grm)
-        {
-            return _vreader.AddItems(grm);
-        }
+        public bool AddItems(GenericRequestModel grm) =>
+            _vreader.AddItems(grm);
 
-        public bool RemoveItems(GenericRequestModel grm)
-        {
-            return _vreader.RemoveItems(grm);
-        }
+        /// <inheritdoc />
+        public bool RemoveItems(GenericRequestModel grm) => 
+            _vreader.RemoveItems(grm);
 
-        public IEnumerable<Item> ListItems(GenericRequestModel grm)
-        {
-            return _vreader.ListItems(grm);
-        }
+        /// <inheritdoc />
+        public IEnumerable<Item> ListItems(GenericRequestModel grm) =>
+            _vreader.ListItems(grm);
 
-        public bool ClearCart(GenericRequestModel grm)
-        {
-            return _vreader.ClearCart(grm);
-        }
+        /// <inheritdoc />
+        public bool ClearCart(GenericRequestModel grm) =>
+            _vreader.ClearCart(grm);
 
+        /// <inheritdoc />
         public double GetTotalCost(GenericRequestModel grm) =>
             _vreader.GetTotalCost(grm);
 
+        /// <inheritdoc />
         public double GetSalesTax(GenericRequestModel grm) =>
             _vreader.GetSalesTax(grm);
 
+        /// <inheritdoc />
         public double ApplyDiscountCode(DiscountRequestModel drm) =>
             _vreader.ApplyDiscountCode(drm);
 
+        /// <inheritdoc />
         public double ApplyBuyOneGetOne(GenericRequestModel grm) =>
             _vreader.ApplyBuyOneGetOne(grm);
-
         #endregion
     }
 }

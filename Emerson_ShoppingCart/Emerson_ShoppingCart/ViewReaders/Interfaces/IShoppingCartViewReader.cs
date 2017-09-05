@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Emerson_ShoppingCart.Models;
 using Emerson_ShoppingCart.Models.RequestModels;
 
@@ -11,6 +10,7 @@ namespace Emerson_ShoppingCart.ViewReaders.Interfaces
     /// /// <seealso cref="Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader" />
     public interface IShoppingCartViewReader
     {
+        #region Interface Members
         /// <summary>
         /// Adds the given data to the ShoppingCart_LinkTable Table.
         /// </summary>
@@ -36,5 +36,6 @@ namespace Emerson_ShoppingCart.ViewReaders.Interfaces
         double ApplyDiscountCode(DiscountRequestModel drm);
 
         double ApplyBuyOneGetOne(GenericRequestModel grm);
+        #endregion
     }
 }

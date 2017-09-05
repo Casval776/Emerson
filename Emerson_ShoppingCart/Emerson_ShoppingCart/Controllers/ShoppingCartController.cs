@@ -1,22 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Web.Http;
+﻿using System.Web.Http;
 using Emerson_ShoppingCart.Controllers.Interfaces;
-using Emerson_ShoppingCart.Models;
 using Emerson_ShoppingCart.Models.RequestModels;
 using Emerson_ShoppingCart.Services.Interfaces;
 
 namespace Emerson_ShoppingCart.Controllers
 {
+    /// <summary>
+    /// Main Endpoint for Shopping Cart Functionality
+    /// </summary>
     public class ShoppingCartController : ApiController, IShoppingCartController
     {
+        #region Private Members
         private readonly IShoppingCartService _svc;
+        #endregion
 
+        #region Constructors
+        /// <summary>
+        /// Default Constructor
+        /// </summary>
+        /// <param name="svc">IShoppingCartService Interface</param>
         public ShoppingCartController(IShoppingCartService svc)
         {
             _svc = svc;
         }
+        #endregion
 
+        #region Public Interface Members
         [HttpPost]
         [Route("api/shopcart/additems")]
         public IHttpActionResult AddItems([FromBody] GenericRequestModel grm)
@@ -104,5 +113,6 @@ namespace Emerson_ShoppingCart.Controllers
                 result
             });
         }
+        #endregion
     }
 }

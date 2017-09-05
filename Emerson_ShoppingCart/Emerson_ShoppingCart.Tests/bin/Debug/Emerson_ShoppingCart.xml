@@ -4,6 +4,23 @@
         <name>Emerson_ShoppingCart</name>
     </assembly>
     <members>
+        <member name="T:Emerson_ShoppingCart.Bootstrapper">
+            <summary>
+            Class used to encapsulate AutoFac DI Functionality.
+            Called on application start.
+            </summary>
+        </member>
+        <member name="F:Emerson_ShoppingCart.Bootstrapper._container">
+            <summary>
+            Publicly accessible container to resolve types.
+            This was primarily used because of unit testing.
+            </summary>
+        </member>
+        <member name="M:Emerson_ShoppingCart.Bootstrapper.Run">
+            <summary>
+            Handles AutoFac DI and Type Registration
+            </summary>
+        </member>
         <member name="T:Emerson_ShoppingCart.Controllers.Interfaces.IShoppingCartController">
             <summary>
             Interface IShoppingCartController
@@ -15,6 +32,17 @@
             </summary>
             <param name="grm">The GRM.</param>
             <returns>IHttpActionResult.</returns>
+        </member>
+        <member name="T:Emerson_ShoppingCart.Controllers.ShoppingCartController">
+            <summary>
+            Main Endpoint for Shopping Cart Functionality
+            </summary>
+        </member>
+        <member name="M:Emerson_ShoppingCart.Controllers.ShoppingCartController.#ctor(Emerson_ShoppingCart.Services.Interfaces.IShoppingCartService)">
+            <summary>
+            Default Constructor
+            </summary>
+            <param name="svc">IShoppingCartService Interface</param>
         </member>
         <member name="T:Emerson_ShoppingCart.Database.Data.Seed">
             <summary>
@@ -77,6 +105,33 @@
         <member name="M:Emerson_ShoppingCart.Services.ShoppingCartService.AddItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
             <inheritdoc />
         </member>
+        <member name="M:Emerson_ShoppingCart.Services.ShoppingCartService.RemoveItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.Services.ShoppingCartService.ListItems(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.Services.ShoppingCartService.ClearCart(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.Services.ShoppingCartService.GetTotalCost(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.Services.ShoppingCartService.GetSalesTax(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.Services.ShoppingCartService.ApplyDiscountCode(Emerson_ShoppingCart.Models.RequestModels.DiscountRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.Services.ShoppingCartService.ApplyBuyOneGetOne(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="T:Emerson_ShoppingCart.ViewReaders.Helpers.ExternCall">
+            <summary>
+            Intended Functionality was to be used for external call to acquire sales tax rate per region.
+            HOWEVER, most public APIs are either way too verbose or require payment. This is just a workaround.
+            </summary>
+        </member>
         <member name="M:Emerson_ShoppingCart.ViewReaders.Helpers.ExternCall.GetTaxRate(System.String)">
             <summary>
             Gets the tax rate.
@@ -127,6 +182,18 @@
         </member>
         <member name="M:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader.ClearCart(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
             <inhericdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader.GetTotalCost(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader.GetSalesTax(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader.ApplyDiscountCode(Emerson_ShoppingCart.Models.RequestModels.DiscountRequestModel)">
+            <inheritdoc />
+        </member>
+        <member name="M:Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader.ApplyBuyOneGetOne(Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel)">
+            <inheritdoc />
         </member>
     </members>
 </doc>

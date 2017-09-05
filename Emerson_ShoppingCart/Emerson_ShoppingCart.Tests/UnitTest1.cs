@@ -9,6 +9,10 @@ using Emerson_ShoppingCart.Services.Interfaces;
 
 namespace Emerson_ShoppingCart.Tests
 {
+    /// <summary>
+    /// NOTE: Probably need to implement the repository pattern to enable proper unit-testing.
+    /// Too many (more than none) work-arounds were made for the SQLite DB Initialization problem.
+    /// </summary>
     [TestClass]
     public class UnitTest1
     {

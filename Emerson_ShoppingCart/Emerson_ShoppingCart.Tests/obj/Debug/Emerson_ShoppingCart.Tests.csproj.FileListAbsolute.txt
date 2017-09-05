@@ -33,3 +33,43 @@ C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Data.SQ
 C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\EntityFramework.xml
 C:\Repo\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\x86\sqlite3.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\x64\sqlite3.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\UML\UML Diagram.png
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\UML\UML Diagram.cd
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\UML\Tech Audition - Shopping Cart- Emerson Ecologics.docx
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Emerson_ShoppingCart.Tests.dll.config
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Emerson_ShoppingCart.Tests.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Emerson_ShoppingCart.Tests.pdb
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Autofac.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Emerson_ShoppingCart.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\EntityFramework.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Data.SQLite.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Web.Http.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\WebActivatorEx.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Swashbuckle.Core.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Emerson_ShoppingCart.pdb
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Emerson_ShoppingCart.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Emerson_ShoppingCart.dll.config
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Autofac.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\EntityFramework.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Data.SQLite.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Data.SQLite.dll.config
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Web.Http.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\obj\Debug\Emerson_ShoppingCart.Tests.csprojResolveAssemblyReference.cache
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\obj\Debug\Emerson_ShoppingCart.Tests.dll
+D:\Dev\Repo\Emerson\Emerson_ShoppingCart\Emerson_ShoppingCart.Tests\obj\Debug\Emerson_ShoppingCart.Tests.pdb

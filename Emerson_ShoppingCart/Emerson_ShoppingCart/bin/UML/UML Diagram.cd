@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Emerson_ShoppingCart.Controllers.ShoppingCartController">
+    <Position X="2.75" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEIAAAAAAQAAAIAAAABIAAABAAAKAAAAAAA=</HashCode>
+      <FileName>Controllers\ShoppingCartController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_svc" />
+    </ShowAsAssociation>
+    <Lollipop Orientation="Bottom" Position="1.104" />
+  </Class>
+  <Class Name="Emerson_ShoppingCart.Services.ShoppingCartService">
+    <Position X="5.75" Y="6" Width="2.5" />
+    <AssociationLine Name="_vreader" Type="Emerson_ShoppingCart.ViewReaders.Interfaces.IShoppingCartViewReader">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.091" Y="0.068" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAAAAAAQAAAIAAAABIAAABAAAKAAAAAAA=</HashCode>
+      <FileName>Services\ShoppingCartService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_vreader" />
+    </ShowAsAssociation>
+    <Lollipop Orientation="Bottom" Position="1.156" />
+  </Class>
+  <Class Name="Emerson_ShoppingCart.ViewReaders.ShoppingCartViewReader">
+    <Position X="9" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAQAAQAAAJAAAABIAAABAAAKAAgAAAA=</HashCode>
+      <FileName>ViewReaders\ShoppingCartViewReader.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_dbconn" />
+    </ShowAsAssociation>
+    <Lollipop Orientation="Bottom" Position="1.135" />
+  </Class>
+  <Class Name="System.Data.SQLite.SQLiteConnection" Collapsed="true">
+    <Position X="12.75" Y="6" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="0.71" Collapsed="true" />
+  </Class>
+  <Class Name="Emerson_ShoppingCart.Database.DatabaseDriver">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAIQAAAABAAAAAAAAAAg=</HashCode>
+      <FileName>Database\DatabaseDriver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DbConn" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Emerson_ShoppingCart.WebApiConfig" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Emerson_ShoppingCart.Bootstrapper">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Bootstrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Emerson_ShoppingCart.Database.Data.Seed">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAQAAAEAA=</HashCode>
+      <FileName>Database\Data\Seed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Emerson_ShoppingCart.Models.Discount">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Discount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Emerson_ShoppingCart.Models.Item">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAgAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Models\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Emerson_ShoppingCart.Models.ShoppingCart_LinkTable">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ShoppingCart_LinkTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Emerson_ShoppingCart.Models.User">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Emerson_ShoppingCart.Models.RequestModels.DiscountRequestModel">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RequestModels\DiscountRequestModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CurrentUser" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Emerson_ShoppingCart.Models.RequestModels.GenericRequestModel">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RequestModels\GenericRequestModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CurrentUser" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Emerson_ShoppingCart.ViewReaders.Helpers.ExternCall">
+    <Position X="11.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewReaders\Helpers\ExternCall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Emerson_ShoppingCart.Controllers.Interfaces.IShoppingCartController" Collapsed="true">
+    <Position X="3" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAQAAAIAAAABIAAABAAAKAAAAAAA=</HashCode>
+      <FileName>Controllers\Interfaces\IShoppingCartController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Emerson_ShoppingCart.Services.Interfaces.IShoppingCartService" Collapsed="true">
+    <Position X="6" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAQAAAIAAAABIAAABAAAKAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IShoppingCartService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Emerson_ShoppingCart.ViewReaders.Interfaces.IShoppingCartViewReader" Collapsed="true">
+    <Position X="9.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAQAAAIAAAABIAAABAAAKAAAAAAA=</HashCode>
+      <FileName>ViewReaders\Interfaces\IShoppingCartViewReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
